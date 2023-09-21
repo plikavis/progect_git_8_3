@@ -15,6 +15,3 @@ def test_login_successful():
     browser.element('.header .account').should(have.exact_text('yashaka@gmail.com'))
     browser.element('.ico-logout').should(be.visible)
 
-
-def test_logout_successful():
-    browser.element('')
