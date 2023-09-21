@@ -17,4 +17,4 @@ def test_login_successful():
 
 
 def test_logout_successful():
-    browser.element('')
+    browser.element('.ico-logout').should(be.visible).click()
